@@ -13,3 +13,4 @@ Project Management Tools by VBA
 10. Auto mail send　●
 11. Excel data copy to one book for Statistics　●
 12. Merge with WBS and review schedule　●
+13. Long file path open
