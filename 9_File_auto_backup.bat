@@ -1,11 +1,11 @@
 echo on
-echo •Û‘¶æ‚ÌƒtƒHƒ‹ƒ_ƒpƒX‚ðŠJ‚­
+echo ä¿å­˜å…ˆã®ãƒ•ã‚©ãƒ«ãƒ€ãƒ‘ã‚¹ã‚’é–‹ã
 CD /D X:\
 
 MD Backup
 CD X:\Backup
 
-echo Ši”[—p‚Ì“ú•tƒtƒHƒ‹ƒ_‚ðì¬‚·‚é
+echo æ ¼ç´ç”¨ã®æ—¥ä»˜ãƒ•ã‚©ãƒ«ãƒ€ã‚’ä½œæˆã™ã‚‹
 echo %date%
 set yyyy=%date:~0,4%
 set mm=%date:~5,2%
@@ -30,26 +30,26 @@ set filename=%yyyy%%mm%%dd%_%hh%%mn%%ss%
 MD %filename%
 CD %filename%
 
-echo Ši”[—p‚ÌƒXƒR[ƒvŠÇ—ƒtƒHƒ‹ƒ_‚ðì¬‚·‚é
-MD 1_ƒXƒR[ƒvŠÇ—
-echo Ši”[—p‚Ìi’»ŠÇ—ƒtƒHƒ‹ƒ_‚ðì¬‚·‚é
-MD 2_i’»ŠÇ—
+echo æ ¼ç´ç”¨ã®ã‚¹ã‚³ãƒ¼ãƒ—ç®¡ç†ãƒ•ã‚©ãƒ«ãƒ€ã‚’ä½œæˆã™ã‚‹
+MD 1_ã‚¹ã‚³ãƒ¼ãƒ—ç®¡ç†
+echo æ ¼ç´ç”¨ã®é€²æ—ç®¡ç†ãƒ•ã‚©ãƒ«ãƒ€ã‚’ä½œæˆã™ã‚‹
+MD 2_é€²æ—ç®¡ç†
 
 echo off
-echo 1_ƒXƒR[ƒvŠÇ—-------------------------------START
+echo 1_ã‚¹ã‚³ãƒ¼ãƒ—ç®¡ç†-------------------------------START
 
 echo ************************************************
-XCOPY /y "Z:\VBA\TOOLS\*.xls*" 1_ƒXƒR[ƒvŠÇ—
+XCOPY /y "Z:\VBA\TOOLS\*.xls*" 1_ã‚¹ã‚³ãƒ¼ãƒ—ç®¡ç†
 echo ************************************************
-echo 1_ƒXƒR[ƒvŠÇ—--------------------------------END
+echo 1_ã‚¹ã‚³ãƒ¼ãƒ—ç®¡ç†--------------------------------END
 
-echo 2_i’»ŠÇ—-----------------------------------START
+echo 2_é€²æ—ç®¡ç†-----------------------------------START
 echo ************************************************
-XCOPY /y "Z:\VBA\ˆÈ‘O‚Ì\Excel vba“ü?Œn—ñ?À.doc" 2_i’»ŠÇ—
+XCOPY /y "Z:\VBA\ä»¥å‰ã®\Excel vbaå…¥?ç³»åˆ—?åº§.doc" 2_é€²æ—ç®¡ç†
 echo ************************************************
-echo 2_i’»ŠÇ—-----------------------------------END
+echo 2_é€²æ—ç®¡ç†-----------------------------------END
 
-echo ƒoƒbƒNƒAƒbƒv¬Œ÷‚µ‚Ü‚µ‚½B
+echo ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—æˆåŠŸã—ã¾ã—ãŸã€‚
 set OPEN_DIR=X:\Backup\%filename%
 EXPLORER %OPEN_DIR%
 pause
