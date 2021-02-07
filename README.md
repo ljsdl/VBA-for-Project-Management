@@ -8,5 +8,5 @@ Project Management Tools by VBA
 5. Auto progress report
 6. Work attendance
 7. Excel grep search
-8. Directory 
+8. Directory display
 9. File auto backup shell
