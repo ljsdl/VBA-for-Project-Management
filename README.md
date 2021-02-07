@@ -1,7 +1,7 @@
 # VBA-for-Project-Management
 Project Management Tools by VBA
 
-1. WBS
+1. Create WBS
 2. Burndown chart backlog
 3. Dashboard
 4. Auto rule check
