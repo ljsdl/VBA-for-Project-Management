@@ -12,3 +12,4 @@ Project Management Tools by VBA
 9. File auto backup shell
 10. Auto mail send
 11. Excel data copy to one book for Statistics
+12. Merge with WBS and review schedule
